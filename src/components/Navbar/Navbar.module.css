@@ -1,4 +1,8 @@
 .navbarContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     padding: 2.5rem;
     display: flex;
     justify-content: space-between;
@@ -11,27 +15,4 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-}
-
-.emailLink {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    text-decoration: none;
-    padding: 0.5rem;
-}
-
-.emailLink::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0;
-    height: 2px;
-    background-color: var(--foreground);
-    transition: width 0.3s ease-in-out;
-}
-
-.emailLink:hover::after {
-    width: 100%;
 }
