@@ -1,14 +1,16 @@
 :root {
     --background: #ffffff;
     --foreground: #171717;
+    --font-size-xs: 0.85rem;
     --font-size: 1rem;
     --font-size-m: 1.45rem;
     --font-size-l: 2rem;
     --font-size-xl: 4rem;
-    --font-size-xxl: 11.25rem;
+    --font-size-xxl: 6rem;
     --line-height: 160%;
     --font-weight-medium: 500;
     --font-weight-large: 600;
+    --grey: #575757
 }
 
 /* DARK MODE OVERRIDE */
