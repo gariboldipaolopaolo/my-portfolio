@@ -13,3 +13,10 @@ export const MENU_ITEMS: MenuItem[] = [
     {href: "technologies", title: "TECHNOLOGIES"},
     {href: "contacts", title: "CONTACTS"},
 ]
+
+export const ABOUT_TITLES = [
+    'I am an experienced software engineer, ',
+    'architect, and technologist, dedicated ',
+    'to building scalable and innovative web solutions ',
+    'that turn ambitious ideas into reality.'
+]

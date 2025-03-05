@@ -12,7 +12,7 @@ const Navbar: FunctionComponent = () => {
     const isMobile = useIsMobile()
 
     return (
-        <div className={styles.navbarContainer}>
+        <nav className={styles.navbarContainer}>
             <div>
                 <p>
                     Based in <br/>
@@ -29,7 +29,7 @@ const Navbar: FunctionComponent = () => {
             {!isMobile
                 ? <Menu menuItems={MENU_ITEMS}/>
                 : <MobileMenu menuItems={MENU_ITEMS}/>}
-        </div>
+        </nav>
     )
 }
 
